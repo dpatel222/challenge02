@@ -6,10 +6,8 @@ class HelloWorld
   
     def hello(newName = "World")
 
-      puts "Hello #{newName}. My name is #{@name}"
+      return "Hello, #{newName}. My name is #{@name}!"
     end
   end
   
 
-deep = HelloWorld.new("Deep")
-puts deep.hello
