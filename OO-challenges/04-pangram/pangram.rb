@@ -13,7 +13,7 @@ class Pangram
     end
   end
 
-  str1 = "The brown fox jumps over the lazy dog"
+  str1 = "The quick brown fox jumps over the lazy dog"
   puts Pangram.is_pangram?(str1)  
   
   str = "Hello, world!"
